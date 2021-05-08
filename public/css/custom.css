@@ -1,0 +1,174 @@
+.principal img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    border-top-color: rgb(255, 255, 255);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 0px 3px 1px #9e9a9a;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.principal {
+    /* Add shadows to create the "card" effect */
+    /* box-shadow: 0 4px 8px 0 rgba(243, 20, 20, 0.2);
+        transition: 0.3s; */
+    text-align: center;
+    padding: 55px 15px 20px;
+    padding-top: 55px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    background: #fff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    border: 4px;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 4px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 4px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 4px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 4px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    margin: 60px 0 20px;
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    position: relative;
+    box-shadow: -1px 0px 4px 1px #e2e2e2;
+    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+
+/* Add some padding inside the card container */
+
+.container {
+    padding: 2px 16px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pdesk {
+    text-align: center;
+    color: gray;
+    font-size: large;
+}
+
+#logo img {
+    border-radius: 50px;
+    width: 125px;
+    height: 90px;
+    margin-right: 0;
+    float: left;
+    margin-right: 10px;
+    padding: 0 15px 0 5px;
+}
+
+.top {}
+
+
+/* Page content */
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+#annauncement {
+    margin-left: 120px;
+}
+
+#vision p {
+    margin-left: 60px;
+    color: rgb(28, 116, 6);
+    text-align: justify;
+}
+
+.dummy {
+    padding: 15px;
+    background: #F2F5F7;
+    border: 1px solid #EAEFF2;
+    margin-bottom: 25px;
+}
+
+.dummy p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.08em;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
